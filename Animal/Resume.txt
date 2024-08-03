@@ -1,0 +1,229 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\usepackage{xcolor}
+\usepackage{mathptmx}
+
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Shubham Majithiya} \\ \vspace{10pt}
+    \vspace{3pt}
+  
+    \small \raisebox{-0.1\height}\faMobile\ +91 9510803973 ~ \href{mailto:majithiyashubham1@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {majithiyashubham1@gmail.com}} ~ 
+    \href{https://linkedin.com/in/shubham-majithiya/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/shubham-majithiya }}  ~\vspace{1pt}
+    \href{https://github.com/shubhm9998}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/shubhm9998}}
+    \vspace{-8pt}
+\end{center}
+
+\section{Objective }
+          \resumeItemListStart
+                \resumeItem{Currently pursuing an MCA with a strong focus on web development and hands-on experience with WordPress, PHP, MySQL, and JavaScript through academic projects. Proficient in using Git and GitHub for version control, as well as knowledge of Linux environments. Eager to apply my technical skills and enthusiasm for web development to effectively support and advance WordPress projects.}
+        \resumeItemListEnd    
+    
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {LJ University }{Pursuing }
+      {Master of Computer Application}{Sem 1: 7.50 SPI}
+      \resumeSubheading
+      {SSCCS Bhavnagar }{ 2020 -- 2023 }
+      {B.sc (Information Technology) }{ 5.50 CGPA}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{CRM-System } $|$ \emph{Laravel,Bootstrap, JavaScript, MySQL }}{}
+          \resumeItemListStart
+            \resumeItem{Created a robust Customer Relationship Management (CRM) system using Laravel, focusing on enhancing client interactions and improving customer service. }
+            \resumeItem{Employed Bootstrap to build a responsive and visually appealing frontend, enhancing user experience across various devices and screen sizes. }
+            \resumeItem{Managed data storage and retrieval with MySQL, including customer data, interaction logs, and analytics, ensuring efficient data handling and query performance. }
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{AryuHerb} $|$ \emph{PHP,HTML,CSS,JavaScript}}{}
+          \resumeItemListStart
+            \resumeItem{initiated a fully functional eCommerce website focused on selling medicines, utilizing PHP for server-side scripting and handling business logic. }
+            \resumeItem{Designed and implemented the front end using HTML, CSS, and JavaScript, ensuring an intuitive and responsive user experience. }
+            \resumeItem{Focused on website performance optimization, including efficient page loading times and smooth interactions. }
+          \resumeItemListEnd 
+          \vspace{-15pt}
+          \resumeProjectHeading
+          {\textbf{Nodrugscampaign} $|$ \emph{Wix Websites Builder}}{}
+          \resumeItemListStart
+            \resumeItem{Contributed to the creation of the "\href{https://www.nodrugscampaign.org/}{No Drugs Campaign}" website using Wix, designed to promote drug awareness and support the organization's initiatives.  }
+            \resumeItem{Managed and updated website content to keep information current and relevant, supporting ongoing campaign efforts.  }
+            \resumeItem{Integrated multimedia content, including images, videos, and informational resources, to effectively communicate the campaign’s message. }
+          \resumeItemListEnd 
+         
+          
+
+%------RELEVANT COURSEWORK-------
+\section{Certification Courses}
+  \resumeItemListStart
+    
+            \resumeItem{\textbf{Coursera} $|$ \emph{IBM Hands-on Introduction to Linux Commands and Shell Scripting }}{ \href{https://drive.google.com/file/d/1ZUbEht7unZPkn-0rjVCxBr3o0aelNBjk/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+            \resumeItem{\textbf{Coursera} $|$ \emph{IBM What is Data Science? }}{ \href{https://drive.google.com/file/d/1uhaMDsXB4brAdlIm0RlRqbcHCjfK5NR5/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+              \resumeItem{\textbf{Spoken-Tutorial } $|$ \emph{JavaScript }}{ \href{https://drive.google.com/file/d/17N-oFOAAhU9iwaWzFxtqWlMc0lb5b2Oc/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+               \resumeItem{\textbf{Spoken-Tutorial } $|$ \emph{RDBMS }}{ \href{https://drive.google.com/file/d/1sd1Qulxr42jpL-CqFHOf8a_YgE71cnlM/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+     \resumeItemListEnd 
+    
+
+\section{Technical Skills}
+  \resumeItemListStart
+    
+            \resumeItem{\textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL}}
+            \resumeItem{\textbf{Developer Tools}{: VS Code, Eclipse, Sublime Text, Android Studio}}
+              \resumeItem{ \textbf{Technologies/Frameworks}{: Linux,Laravel, GitHub, Wix ,WordPress,Canva}}
+     \resumeItemListEnd 
+    
+ \section{Hobbies }
+   \small{\item{
+    \resumeItemListStart
+     \resumeItem{\textbf{Trekking }} \\
+    \resumeItem{ \textbf{Console Games}} \\
+    \resumeItem{ \textbf{Drawing simple designs } }\\
+    \resumeItem{ \textbf{Photography } }
+   
+     \resumeItemListEnd}}
+ 
+ \vspace{-16pt}
+%-----------EXPERIENCE-----------
+
+\vspace{-16pt}
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+
+
+
+%-----------INVOLVEMENT---------------
+
+
+
+\end{document}
